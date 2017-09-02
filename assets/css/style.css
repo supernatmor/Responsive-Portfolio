@@ -84,13 +84,18 @@ p {
 
 .mainbox {
 	width: 100%;
-	max-width: 960px;
 	margin: 0 auto;
 	clear: both;
 
 }
 
 .img {
+	float: left;
+	padding-right: 25px;
+	padding-bottom: 25px;
+}
+
+.portimg {
 	float: left;
 	padding-right: 25px;
 	padding-bottom: 25px;
@@ -130,6 +135,7 @@ p {
 
 }
 
+
 .header {
 	background: whitesmoke;
 	width: 100%;
@@ -151,10 +157,13 @@ p {
 @media screen and (max-width: 980px){
 
 
+
+
 	.aboutme, .portfolio, .contact {
 		width: 420px;
-		margin-right: 25px;
+		margin-left: 100px;
 	}
+
 
 	.connect {
 		width: 20%;
@@ -165,7 +174,13 @@ p {
 
 	.img {
 		width: 50%;
-		margin-bottom: 20px;
+		height: 50%;		
+	}
+
+	.portimg {
+		width: 75%;
+		height: 50%;
+		padding-left: 45px;
 	}
 
 	.links {
@@ -173,7 +188,7 @@ p {
 	}
 
 	.name {
-		margin-left: 85px;
+		margin-left: 100px;
 	}
 
 }
