@@ -187,19 +187,32 @@ p {
 	}
 
 }
- /*browser is not picking up css for 768 and 640 px*/
-
- /* back ground color set for debug purpos only*/
 @media screen and (max-width: 768px) {
 
-	* {
-		background: blue;
+	.aboutme, .portfolio, .contact {
+		max-width: 90%;
 	}
-}
 
-@media screen and (max-width: 640px) {
 
-	* {
-		background: blue;
+	.connect {
+		position: absolute;
+		bottom: 20px;
+		max-width: 90%
+		max-height: 15%;
+
+	}
+
+	.img {
+		width: 50%;
+		height: 50%;		
+	}
+
+	.portimg {
+		width: 75%;
+		height: 50%;
+	}
+
+	.links {
+		width: 20%;
 	}
 }
