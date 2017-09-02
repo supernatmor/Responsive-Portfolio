@@ -84,9 +84,6 @@ p {
 
 .mainbox {
 	width: 100%;
-	margin: 0 auto;
-	clear: both;
-
 }
 
 .img {
@@ -154,10 +151,8 @@ p {
 	margin-top: 15px;
 }
 
+
 @media screen and (max-width: 980px){
-
-
-
 
 	.aboutme, .portfolio, .contact {
 		width: 420px;
@@ -166,10 +161,10 @@ p {
 
 
 	.connect {
-		width: 20%;
 		position: absolute;
 		top: 150px;
 		right: 90px;
+		width: 20%;
 	}
 
 	.img {
@@ -192,13 +187,19 @@ p {
 	}
 
 }
+ /*browser is not picking up css for 768 and 640 px*/
 
+ /* back ground color set for debug purpos only*/
 @media screen and (max-width: 768px) {
 
-
+	* {
+		background: blue;
+	}
 }
 
 @media screen and (max-width: 640px) {
 
-
+	* {
+		background: blue;
+	}
 }
